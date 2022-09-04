@@ -1,5 +1,4 @@
 // Created by zhangshengbin on 2021/7/20.
-// 献给毕生所爱
 #ifndef _OTHER_F_H
 #define _OTHER_F_H
 

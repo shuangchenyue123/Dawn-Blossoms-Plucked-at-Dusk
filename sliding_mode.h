@@ -1,5 +1,4 @@
 // Created by zhangshengbin on 2021/11/26
-// 为刘婕献上鲜血
 #ifndef _SL_H
 #define _SL_H
 

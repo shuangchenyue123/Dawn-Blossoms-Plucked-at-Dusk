@@ -1,6 +1,5 @@
 // Created by zhangshengbin on 2021/7/20.
-// 我以血肉供养挚爱
-// 为刘婕献上鲜血
+
 #ifndef _TREE_CLASS_H
 #define _TREE_CLASS_H
 

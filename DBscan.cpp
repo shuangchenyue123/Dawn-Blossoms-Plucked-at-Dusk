@@ -1,5 +1,4 @@
 // Created by zhangshengbin on 2021/11/26.
-// 为刘婕献上鲜血
 #include "DBscan.h"
 #include <algorithm>
 
