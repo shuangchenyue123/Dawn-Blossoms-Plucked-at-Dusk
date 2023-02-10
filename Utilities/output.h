@@ -71,7 +71,9 @@ inline void Output::out_ortho_protein_parallel(int nthreads, string &path){
     int mkdir_result = system(command.c_str());
     if(mkdir_result == -1)
         handle_error("Unable to make a new folder for the ortho protein sequences");
-    int grainsize = _obj_ortho.HGTortho_rtree.size()/nthreads;
+    if(_obj_ortho.HGTortho_rtree.size() < nthreads)
+        nthreads = _obj_ortho.HGTortho_rtree.size();
+    int grainsize = _obj_ortho.HGTortho_rtree.size()/nthreads + 1;
     map<string, vector<string> > order_change_map;
     move_map_order(_obj_ortho.HGTortho_rtree, order_change_map, nthreads, grainsize);
 
