@@ -124,7 +124,7 @@ inline string change_name_back(string name){
 }
 
 inline void handle_error(const char* msg){
-    perror(msg);
+    cerr << msg << endl;
     exit(255);
 }
 
