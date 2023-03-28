@@ -110,7 +110,7 @@ void print_help(){
 
     // 滑行阈值部分
     cout << "SLDING MODE OPTIONS:" << endl;
-    cout << "--slding_mode               Open the sliding threshold mode" << endl;
+    cout << "--sliding_mode              Open the sliding threshold mode" << endl;
     cout << endl;
 
     // DBPD时间、距离聚类部分
